@@ -1,0 +1,15 @@
+<?php namespace MOSDB\Registration\Events;
+
+use MOSDB\Users\User;
+
+
+class UserRegistered {
+
+
+	public $user;
+
+	function __construct(User $user)
+	{
+		$this->user = $user;
+	}
+}

@@ -1,0 +1,260 @@
+/* ==========================================================================
+   Fonts
+   ========================================================================== */
+@font-face {
+  font-family: 'Neutra';
+  src: url('NeutraText-Bold.otf')  format('opentype'); /* Safari, Android, iOS */       
+}
+@font-face{
+	font-family: 'NeutraText Book Italic';
+	src:url('NeutraText BookItalic.otf') format('opentype');
+}
+@font-face{
+	font-family: 'NeutraText BookSC';
+	src:url('NeutraText BookSC.otf') format('opentype');
+}
+@font-face{
+	font-family: 'NeutraTextTF Bold Italic';
+	src:url('NeutraTextTF BoldItalicAlt.otf') format('opentype');
+}
+@font-face{
+	font-family: 'NeutraText BoldSCAlt';
+	src:url('NeutraTextTF BoldSCAlt.otf') format('opentype');
+}
+@font-face{
+	font-family: 'NeutraText BoldSC';
+	src:url('NeutraText BoldSC.otf') format('opentype');
+}
+@font-face{
+	font-family: 'NeutraText BoldItalicAlt';
+	src:url('NeutraText BoldItalicAlt.otf') format('opentype');
+}
+
+input, button{
+	font-family: "NeutraText BookSC";
+}
+p, li, a{
+	font-family: "NeutraText BookSC";
+}
+.container-fluid{
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+h3{
+	font-family: Neutra;
+	font-size: 26px;
+	text-align: center;
+}
+h1{
+   font-family: Neutra;
+   font-size: 22px;
+}
+body{
+   height: 100%;
+}
+img.error-logo{
+   display: block;
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 50px;
+}
+h1{
+   text-align: center;
+}
+.account-wall button{
+   text-align: center;
+   display: block;
+   margin: 0 auto;
+}
+
+/* ==========================================================================
+   Login
+   ========================================================================== */
+.logo-login{
+	display: block;
+	margin: 50% auto 50px auto;
+	text-align: center;
+}
+.account-wall{
+	background: #fdfdfd;
+}
+.btn-primary{
+	background: #00AEEF;
+	border: none;
+
+}
+
+/* ==========================================================================
+   Registration
+   ========================================================================== */
+.alert-danger li{
+	text-align: center;
+}
+.alert-danger ul{
+	list-style-type: none;
+}
+.alert, .alert-info{
+   text-align: center;
+   font-family: NeutraText BookSC;
+}
+
+
+/* ==========================================================================
+   Dashboard Navigation
+   ========================================================================== */
+.sidebar{
+	width: 15%;
+   background: #F4F4F4;
+   float: left;
+
+}
+.fill{
+    min-height: 100%;
+    height: auto;
+    height: 100%;
+}
+.dashboard-nav{
+	background: #F4F4F4;
+	box-shadow: -3px 0px 8px -4px rgba(0, 0, 0, 0.07) inset;
+
+}
+.logo-dashboard{
+   display: block;
+   margin: 15px auto;
+}
+.dashboard-nav i{
+	margin-right: 15px;
+}
+.dashboard-nav a{
+	border-top: 1px solid #fff;
+}
+.dashboard-nav li{
+	border-top: 1px solid #dbdbdb;
+}
+.dashboard-nav ul li a:last-child{
+	/*border-bottom: 1px solid #fff;*/
+}
+.dashboard-nav ul li:last-child{
+	border-bottom: 1px solid #dbdbdb;
+}
+.dashboard-nav .active{
+	background: #Fcfcfc;
+	box-shadow: -3px 0px 8px -4px rgba(0, 0, 0, 0.07) inset;
+}
+.dashboard-nav p{
+	padding: 20px 0px 10px 0px;
+	text-align: center;
+}
+/* ==========================================================================
+   Top Navigation
+   ========================================================================== */
+   .top-nav{
+   	background-color: #00AEEF;
+   	width: 100%;
+   	height: 50px;
+
+   }
+   .top-nav ul{
+   	list-style-type: none;
+   }
+   .top-nav ul li a{
+   	display: block;
+   }
+   .top-nav ul.dropdown {
+   	visibility: hidden;
+      z-index: 999;
+      margin-top: 0!important;
+   }
+   .top-nav ul li:hover .dropdown{
+   	visibility: visible;
+      z-index: 999;
+   }
+   ul.navbar-right{
+      margin-top: 0!important;
+   }
+   
+   .top-nav i{
+   	margin-right: 15px;
+   }
+   .logout{
+   	margin-right: 50px;
+   }
+   .logout a{
+   	line-height: 50px;
+   }
+   .disabled{
+   	display: none;
+   }
+   .dropdown{
+   	background: #F4F4F4;
+   }
+   .dropdown li a{
+   		text-align: center;
+   		margin-right: 80px;
+   }
+   a.log{
+   	color: #f9f9f9;
+   }
+   .alert-welcome{
+      margin: 25px auto;
+      text-align: center;
+      display: block;
+      float: none!important;
+
+   }
+   .nav-pills li a:hover{
+      background: rgba(255,255,255,.2);
+      border-radius: 0;
+   }
+   .nav-pills li a{
+      line-height: 30px;
+      color: #fff;
+      border-left: 1px solid rgba(255,255,255,.2);
+      border-right:1px solid rgba(0,0,0,.2);
+      border-radius: 0;
+      font-size: 18px;
+   }
+   .top-nav .nav-pills{
+      margin-left: 15%;
+   }
+   .nav-pills li:first-child a{
+      border-left: none;
+   }
+   .nav-pills li:last-child a{
+      border-right: none;
+   }
+
+   /* ==========================================================================
+      Table Area
+      ========================================================================== */
+   .main{
+      float: right;
+      margin-right: 50px;
+      width: 78%;
+
+   }
+   .main .fixed-table-container{
+      margin:0 auto;
+   }
+
+   .fixed-table-body{
+      height: auto;
+   }
+   table{
+      font-family: NeutraText BookSC;
+   }
+   .selected{
+      background-color: rgba(0, 174, 239,.5)!important;
+   }
+   .delete{
+      color: #ED1B35;
+      position: relative;
+      top: -1px;
+      margin-left: 5px;
+   }
+    .btn-primary a{
+      color: #fff;
+   }
+
